@@ -25,3 +25,71 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.navbar {
+  background-color: #DCD7D4;
+}
+
+/* Estilos para las columnas */
+.contenedor {
+  display: flex; /* Utiliza flexbox para el diseño */
+  min-height: 100%;
+}
+
+.columna {
+  width: 50%; /* Establece el ancho al 50% para dos columnas */
+  padding: 20px;
+  box-sizing: border-box; /* Incluye el padding en el ancho total */
+  /*border: 1px solid #ccc; Borde para visualizar las columnas */
+}
+
+.contenedor2 {
+  display: flex; /* Utiliza flexbox para el diseño */
+  width: 100%;
+  min-height: 100%;
+}
+
+.columna2 {
+  width: 100%; /* Establece el ancho al 50% para dos columnas */
+  justify-items: center;
+  box-sizing: border-box; /* Incluye el padding en el ancho total */
+  /*border: 1px solid #ccc; Borde para visualizar las columnas */
+  background-color: #956E53;
+}
+
+.columna3 {
+  width: 100%; /* Establece el ancho al 50% para dos columnas */
+  justify-items: center;
+  box-sizing: border-box; /* Incluye el padding en el ancho total */
+  /*border: 1px solid #ccc; Borde para visualizar las columnas */
+  background-color: #6C503C;
+}
+
+/* Estilos CSS personalizados para los botones en las columnas */
+.botonColumna {
+  width: 100%; /* El botón ocupará el 100% del ancho de la columna */
+  justify-content: center; /* Centrar horizontalmente el contenido del botón */
+  /* Otros estilos que necesites para sobrescribir los estilos de la librería */
+}
+
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: black;
+  margin-top: auto;
+  z-index: 100;
+  text-align: center;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: max-content;
+}
+
+.footer-column {
+  margin-bottom: 0;
+}
