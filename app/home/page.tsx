@@ -1,24 +1,22 @@
 "use client";
 import React from "react";
-import {Navbar, NavbarBrand, Avatar, Button} from "@nextui-org/react";
+import {Navbar, NavbarBrand, Avatar, Button, Image} from "@nextui-org/react";
 import Footer from "../footer";
+import 'bootstrap/dist/css/bootstrap.css'
+
 
 
 export default function HomePage() {
   return (
     <>
-        <Navbar className="navbar">
-        <NavbarBrand className="gap-5">
-            <Avatar
-                size="lg"
-                radius="full"
-                src={"/logo-estudio.png"}
-            />
-            <p className="font-bold text-inherit">Estudio Adrian Gustavo Guidi</p>
-        </NavbarBrand>
-        </Navbar>
-        <div className="contenedor">
-            <div className="columna">
+    <div className="max-w-full max-h-full bg-black">
+        <nav className="navbar bg-body-tertiary bg-white">
+            <div className="container-fluid">
+                <img src={"/logo-estudio.png"} alt="Logo"  height="30" className=""/>
+            </div>
+            </nav>
+        <div className="contenedor bg-black">
+            <div className="columna text-white">
                 ¡Bienvenido al Despacho Legal de Adrián Gustavo Guidi!
 
                 Es un honor darle la bienvenida a mi despacho legal. Soy Adrián Gustavo Guidi,  abogado comprometido con la asesoría legal de calidad y el servicio a la comunidad.
@@ -34,8 +32,28 @@ export default function HomePage() {
                 Adrián Gustavo Guidi
             </div>
             <div className="columna">
-               Aca va foto
-            </div>
+                <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
+                <div className="carousel-inner">
+                    <div className="carousel-item active" data-bs-interval="10000">
+                    <img src={"/carousel-1.jpg"} className="d-block w-75" alt="Hola"/>
+                    </div>
+                    <div className="carousel-item" data-bs-interval="2000">
+                    <img src={"/carousel-2.jpg"} className="d-block w-75" alt="Chau"/>
+                    </div>
+                    <div className="carousel-item">
+                    <img src={"/carousel-3.jpg"} className="d-block w-75" alt="Que onda"/>
+                    </div>
+                </div>
+                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Previous</span>
+                </button>
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Next</span>
+                </button>
+                </div>
+            </div>             
         </div>
         <div className="flex gap-4 items-center">
             <div className="contenedor2 flex">
@@ -52,6 +70,7 @@ export default function HomePage() {
             </div>
         </div>
         <Footer></Footer>
+    </div>
   </>
   );
 }

@@ -8,8 +8,7 @@ const Footer: React.FC = () => {
  
   return (
     <footer className="py-4 footer-container">
-      <ContainerFooter>       
-        <h6 className='mt-2 mb-2'>Seguinos en nuestras redes sociales</h6>
+      <ContainerFooter>
         <div className="footer-content">
           <SocialIcon network="instagram" url="https://www.instagram.com/healthtimenutrition/?hl=es" className="mx-1" />
           <SocialIcon network="facebook" url="https://www.facebook.com/healthtime/" className="mx-1" />
