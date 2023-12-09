@@ -6,7 +6,7 @@ export default class NextJsCarousel extends Component {
 	render() { 
 		return ( 
 			<div> 
-                <Carousel autoPlay> 
+                <Carousel autoPlay infiniteLoop showThumbs={false} showStatus={false}> 
                     <div> 
                         <img src={"/carousel-1.jpg"} alt="image1"/> 
 
