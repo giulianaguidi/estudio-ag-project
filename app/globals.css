@@ -49,6 +49,15 @@ body {
   min-height: 100%;
 }
 
+.contenedor3 {
+  display: flex; /* Utiliza flexbox para el diseño */
+  min-height: 100%;
+  height:max-content;
+  align-self: center;
+  text-decoration: black;
+  background-color: #866042;
+}
+
 .columna2 {
   width: 100%; /* Establece el ancho al 50% para dos columnas */
   justify-items: center;
@@ -73,7 +82,7 @@ body {
 }
 
 .footer-container {
-  position: fixed;
+  position:static;
   bottom: 0;
   width: 100%;
   padding: 20px;
