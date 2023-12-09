@@ -27,7 +27,9 @@ body {
 }
 
 .navbar {
-  background-color: #DCD7D4;
+  background-color: #FFF5EE;
+  align-items: center;
+  justify-content: center;
 }
 
 .container-fluid {
@@ -41,9 +43,11 @@ body {
 }
 
 .columna {
-  width: 50%; /* Establece el ancho al 50% para dos columnas */
-  padding: 20px;
-  box-sizing: border-box; /* Incluye el padding en el ancho total */
+  width: 100%; /* Establece el ancho al 50% para dos columnas */
+  background-color: #FFF5EE;
+  
+  /*padding: 20px;*/
+  /*box-sizing: border-box;  Incluye el padding en el ancho total */
   /*border: 1px solid #ccc; Borde para visualizar las columnas */
 }
 
@@ -91,6 +95,11 @@ body {
   background-color: #6C503C;
 }
 
+.columna4 {
+  padding-top: 1%;
+  text-align: center;
+}
+
 /* Estilos CSS personalizados para los botones en las columnas */
 .botonColumna {
   width: 100%; /* El botón ocupará el 100% del ancho de la columna */
@@ -123,4 +132,11 @@ body {
 .h1 {
   font-size: xx-large;
   font-variant-position: super;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.h2 {
+  font-size: large;
+  font-variant-position: super;
+  font-family: 'Times New Roman', Times, serif;
 }
