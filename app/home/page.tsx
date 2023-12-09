@@ -1,9 +1,10 @@
 "use client";
 import React, { useState } from "react";
-import {Button, Breadcrumbs, BreadcrumbItem} from "@nextui-org/react";
+import { Button, Breadcrumbs, BreadcrumbItem } from "@nextui-org/react";
 import Footer from "../footer";
-import { Fade,Bounce,Flip } from "react-awesome-reveal"; 
+import { Fade } from "react-awesome-reveal"; 
 import NextJsCarousel from "./carousel";
+import Image from 'next/image'
 
 
 export default function HomePage() {
@@ -40,7 +41,7 @@ export default function HomePage() {
     <div className="max-w-full max-h-full bg-white">
         <nav className="navbar bg-body-tertiary bg-white">
             <div className="container-fluid">
-                <img src={"/logo-2.png"} alt="Logo"  height="10" className=""/>
+                <img src={"/logo-2.png"} alt="Logo"  height="10"  className="" />
             </div>
         </nav>
         <div className="contenedor3">
@@ -64,10 +65,10 @@ export default function HomePage() {
         </div>
         <div className="contenedor bg-black">
             {contactoButton && (
-                <div className="columna text-white"> Contacto </div>
+                <div className="columna"> Contacto </div>
             )}
             {serviciosButton && (
-                <div className="columna text-white"> Servicios </div>
+                <div className="columna"> Servicios </div>
             )}
             {inicioButton && (
                 <div className="columna text-white">

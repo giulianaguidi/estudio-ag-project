@@ -30,6 +30,10 @@ body {
   background-color: #DCD7D4;
 }
 
+.container-fluid {
+  margin-left: 1%;
+}
+
 /* Estilos para las columnas */
 .contenedor {
   display: flex; /* Utiliza flexbox para el diseño */
@@ -66,7 +70,7 @@ body {
   margin-top: 1%;
   margin-bottom: 1%;
   margin-left: 1%;
-  text-decoration: black;
+  text-decoration: white;
   background-color: #866042;
 
 }
