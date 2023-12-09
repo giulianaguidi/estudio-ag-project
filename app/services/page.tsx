@@ -1,14 +1,15 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
+import { Button, Breadcrumbs, BreadcrumbItem } from "@nextui-org/react";
+import Footer from "../footer";
 import { Fade } from "react-awesome-reveal"; 
-import NextJsCarousel from "./carousel";
+import Image from 'next/image'
 
 
-export default function HomePage() {
+export default function Servicios() {
   return (
     <>
         <div className="columna">
-            <NextJsCarousel></NextJsCarousel>
             <div className="columna text-black">
                 <div className="columna4">
                     <Fade duration={5000}> 
