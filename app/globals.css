@@ -52,10 +52,23 @@ body {
 .contenedor3 {
   display: flex; /* Utiliza flexbox para el diseño */
   min-height: 100%;
-  height:max-content;
+  height: max-content;
   align-self: center;
   text-decoration: black;
   background-color: #866042;
+}
+
+.contenedor3v2 {
+  display: flex; /* Utiliza flexbox para el diseño */
+  min-height: 100%;
+  height: max-content;
+  align-self: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  text-decoration: black;
+  background-color: #866042;
+
 }
 
 .columna2 {
@@ -101,4 +114,9 @@ body {
 
 .footer-column {
   margin-bottom: 0;
+}
+
+.h1 {
+  font-size: xx-large;
+  font-variant-position: super;
 }

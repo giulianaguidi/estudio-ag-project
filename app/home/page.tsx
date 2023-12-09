@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import {Button, Breadcrumbs, BreadcrumbItem} from "@nextui-org/react";
 import Footer from "../footer";
-import 'bootstrap/dist/css/bootstrap.css'
 import { Fade,Bounce,Flip } from "react-awesome-reveal"; 
 import NextJsCarousel from "./carousel";
 
@@ -45,7 +44,7 @@ export default function HomePage() {
             </div>
         </nav>
         <div className="contenedor3">
-            <div className="contenedor3 mt-3">
+            <div className="contenedor3v2">
                 <Breadcrumbs underline="active" onAction={() => handleInicioButton()}>
                     <BreadcrumbItem key="inicio" isCurrent={currentPage === "inicio"}>
                         Inicio
@@ -60,8 +59,6 @@ export default function HomePage() {
                             Servicios
                         </BreadcrumbItem>
                     )}
-                
-                    
                 </Breadcrumbs>
             </div>
         </div>
@@ -75,7 +72,7 @@ export default function HomePage() {
             {inicioButton && (
                 <div className="columna text-white">
                     <Fade duration={5000}> 
-                        <h1>Bienvenidos al Despacho Legal de Adrián Gustavo Guidi,</h1> 
+                        <h1 className="h1">Bienvenidos al Despacho Legal de Adrián Gustavo Guidi</h1> 
                     </Fade> 
                     <Fade duration={7000}>
                         <span>
