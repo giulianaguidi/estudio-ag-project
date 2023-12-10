@@ -140,3 +140,69 @@ body {
   font-variant-position: super;
   font-family: 'Times New Roman', Times, serif;
 }
+
+.contenedorServiciosGral {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.contenedorServicios {
+  width: 90%;
+  display: flex;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.columnaDerecha {
+  width: 50%;
+  border-top: solid;
+  border-bottom: solid;
+  border-right: solid;
+  border-top-color: #6C503C;
+  border-bottom-color: #6C503C;
+  border-right-color: #6C503C;
+  border-left: none;
+  justify-content: right;
+  display: flex;
+  align-self: right;
+  justify-self: right;
+  padding-right: 1%;
+}
+
+.columnaIzquierda {
+  width: 50%;
+  border-top: solid;
+  border-bottom: solid;
+  border-left: solid;
+  border-top-color: #6C503C;
+  border-bottom-color: #6C503C;
+  border-left-color: #6C503C;
+  border-right: none;
+  justify-content: left;
+  display: flex;
+  align-self: left;
+  justify-self: left;
+  padding-left: 1%;
+}
+
+.columnaSinNada {
+  width: 50%;
+  border-bottom: solid;
+  border-bottom-color: #6C503C;
+  border-top: solid;
+  border-top-color: #6C503C;
+  border-right: none;
+  justify-content: left;
+  display: flex;
+  align-self: left;
+  justify-self: left;
+  padding-left: 1%;
+}
+
+.tituloDerecha {
+  color: #6C503C;
+  font-size: xx-large;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
