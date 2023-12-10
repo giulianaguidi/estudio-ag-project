@@ -1,29 +1,60 @@
 "use client";
-import React, { useState } from "react";
-import { Button, Breadcrumbs, BreadcrumbItem } from "@nextui-org/react";
-import Footer from "../footer";
-import { Fade } from "react-awesome-reveal"; 
-import Image from 'next/image'
+import React from "react";
+import {Card, CardBody, Divider} from "@nextui-org/react";
+
 
 
 export default function Servicios() {
   return (
     <>
        <div className="contenedorServiciosGral">
+       <h1 className="serviciosTitulo">Servicios</h1> 
             <div className="contenedorServicios">
                 <div className="columnaSinNada flex-1"></div>
                 <div className="columnaDerecha flex-1">
                     <h1 className="tituloDerecha"> Derecho Civil y Comercial </h1>
-                    <h1 className="bodyServicios"> 
-
-                    </h1>
+                    <div className="bodyServicios"> 
+                                <ul>
+                                    <Divider className="my-4" />
+                                    <li>Sucesiones</li>
+                                    <Divider className="my-4" />
+                                    <li>Accidentes de transito</li>
+                                    <Divider className="my-4" />
+                                    <li>Daños y Perjuicios</li>
+                                    <Divider className="my-4" />
+                                    <li>Juicios Ejecutivos</li>
+                                    <Divider className="my-4" />
+                                    <li>Desalojos</li>
+                                    <Divider className="my-4" />
+                                    <li>Contratos</li>
+                                    <Divider className="my-4" />
+                                </ul>
+                    </div>
                 </div>
             </div>
             <div className="contenedorServicios">
                 <div className="columnaIzquierda flex-1">
-                    <h1 className="tituloDerecha"> Derecho Laboral </h1>
+                    <h1 className="tituloDerecha"> Derecho de Familia </h1>
                     <h1 className="bodyServicios"> 
-
+                        <ul>
+                            <Divider className="my-4" />
+                            <li>Divorcios y uniones convivenciales</li>
+                            <Divider className="my-4" />
+                            <li>Cuota alimentaria</li>
+                            <Divider className="my-4" />
+                            <li>Impedimento de contacto</li>
+                            <Divider className="my-4" />
+                            <li>Regimen de comunicacion</li>
+                            <Divider className="my-4" />
+                            <li>Cuidado personal</li>
+                            <Divider className="my-4" />
+                            <li>Filiación</li>
+                            <Divider className="my-4" />
+                            <li>Adopción</li>
+                            <Divider className="my-4" />
+                            <li>Responsabilidad paternal</li>
+                            <Divider className="my-4" />
+                        </ul>
                     </h1>
                 </div>
                 <div className="columnaSinNada flex-1"></div>
@@ -32,9 +63,17 @@ export default function Servicios() {
             <div className="contenedorServicios">
                 <div className="columnaSinNada flex-1"></div>
                 <div className="columnaDerecha flex-1">
-                    <h1 className="tituloDerecha"> Derecho de Familia </h1>
+                    <h1 className="tituloDerecha"> Derecho Laboral </h1>
                     <h1 className="bodyServicios"> 
-
+                        <ul>
+                            <Divider className="my-4" />
+                            <li>Accidentes de trabajo</li>
+                            <Divider className="my-4" />
+                            <li>Indemnizaciones por despido</li>
+                            <Divider className="my-4" />
+                            <li>Reclamos laborales en general</li>
+                            <Divider className="my-4" />
+                        </ul>    
                     </h1>
                 </div>
             </div>
@@ -42,7 +81,15 @@ export default function Servicios() {
                 <div className="columnaIzquierda flex-1">
                     <h1 className="tituloDerecha"> Derecho Administrativo </h1>
                     <h1 className="bodyServicios"> 
-
+                        <ul>
+                            <Divider className="my-4" />
+                            <li>Amparos de Salud</li>
+                            <Divider className="my-4" />
+                            <li>Demas</li>
+                            <Divider className="my-4" />
+                            <li>Demas</li>
+                            <Divider className="my-4" />
+                        </ul>    
                     </h1>
                 </div>
                 <div className="columnaSinNada flex-1"></div>

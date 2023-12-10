@@ -141,11 +141,26 @@ body {
   font-family: 'Times New Roman', Times, serif;
 }
 
+.serviciosTitulo {
+  font-size: xx-large;
+  font-variant-position: super;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+  text-decoration: solid;
+  text-decoration:double;
+  background-color: #956E53;
+}
+
 .contenedorServiciosGral {
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 2%;
   margin-bottom: 2%;
+  background-image: url('../public/service-bg2.jpg');
+
 }
 
 .contenedorServicios {
@@ -153,10 +168,11 @@ body {
   display: flex;
   margin-left: 2%;
   margin-right: 2%;
+
 }
 
 .columnaDerecha {
-  width: 50%;
+  width: 100%; /* Cambiar el ancho a 100% */
   border-top: solid;
   border-bottom: solid;
   border-right: solid;
@@ -164,15 +180,13 @@ body {
   border-bottom-color: #6C503C;
   border-right-color: #6C503C;
   border-left: none;
+  display: block; /* Cambiar a display block */
   justify-content: right;
-  display: flex;
-  align-self: right;
-  justify-self: right;
   padding-right: 1%;
 }
 
 .columnaIzquierda {
-  width: 50%;
+  width: 100%;
   border-top: solid;
   border-bottom: solid;
   border-left: solid;
@@ -181,7 +195,7 @@ body {
   border-left-color: #6C503C;
   border-right: none;
   justify-content: left;
-  display: flex;
+  display: block;
   align-self: left;
   justify-self: left;
   padding-left: 1%;
@@ -204,5 +218,14 @@ body {
 .tituloDerecha {
   color: #6C503C;
   font-size: xx-large;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  min-width: max-content;
+}
+
+.bodyServicios {
+  width: 50%; /* Cambiar el ancho a 100% */
+  display: block; /* Cambiar a display block */
+  margin-bottom: 1%;
+  justify-content: center;
+  color: black;
 }
