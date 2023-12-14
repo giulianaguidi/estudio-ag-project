@@ -34,6 +34,12 @@ body {
 
 .container-fluid {
   margin-left: 1%;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  display: flex;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 /* Estilos para las columnas */
@@ -62,8 +68,7 @@ body {
   min-height: 100%;
   height: max-content;
   align-self: center;
-  text-decoration: black;
-  background-color: #866042;
+  background: linear-gradient(#866042,#784D1B);
 }
 
 .contenedor3v2 {
@@ -74,8 +79,7 @@ body {
   margin-top: 1%;
   margin-bottom: 1%;
   margin-left: 1%;
-  text-decoration: white;
-  background-color: #866042;
+  text-decoration: rgb(255, 255, 255);
 
 }
 
@@ -132,26 +136,35 @@ body {
 .h1 {
   font-size: xx-large;
   font-variant-position: super;
-  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .h2 {
   font-size: large;
   font-variant-position: super;
-  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.h22 {
+  font-size: large;
+  font-variant-position: super;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .serviciosTitulo {
   font-size: xx-large;
   font-variant-position: super;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color:white;
+  color:rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   margin-bottom: 2%;
   text-decoration: solid;
   text-decoration:double;
-  background-color: #956E53;
+  background: linear-gradient(#627D98,#334E68);
 }
 
 .contenedorServiciosGral {
@@ -176,23 +189,25 @@ body {
   border-top: solid;
   border-bottom: solid;
   border-right: solid;
-  border-top-color: #6C503C;
-  border-bottom-color: #6C503C;
-  border-right-color: #6C503C;
+  border-top-color: #38404E;
+  border-bottom-color: #38404E;
+  border-right-color: #38404E;
   border-left: none;
-  display: block; /* Cambiar a display block */
-  justify-content: right;
-  padding-right: 1%;
+  display: flex; /* Cambiar a display flex */
+  flex-direction: column; /* Establecer la dirección de los elementos como columna */
+  align-items: flex-end; /* Alinear los elementos al final (derecha) */
+  padding-right: 1%; /* Añadir un pequeño espacio a la derecha */
 }
+
 
 .columnaIzquierda {
   width: 100%;
   border-top: solid;
   border-bottom: solid;
   border-left: solid;
-  border-top-color: #6C503C;
-  border-bottom-color: #6C503C;
-  border-left-color: #6C503C;
+  border-top-color: #38404E;
+  border-bottom-color: #38404E;
+  border-left-color: #38404E;
   border-right: none;
   justify-content: left;
   display: block;
@@ -204,28 +219,37 @@ body {
 .columnaSinNada {
   width: 50%;
   border-bottom: solid;
-  border-bottom-color: #6C503C;
+  border-bottom-color: #38404E;
   border-top: solid;
-  border-top-color: #6C503C;
+  border-top-color: #38404E;
   border-right: none;
   justify-content: left;
-  display: flex;
+  display: block;
   align-self: left;
   justify-self: left;
   padding-left: 1%;
 }
 
 .tituloDerecha {
-  color: #6C503C;
+  color: #38404E;
   font-size: xx-large;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   min-width: max-content;
 }
 
-.bodyServicios {
-  width: 50%; /* Cambiar el ancho a 100% */
+.bodyServiciosDerecha {
+  width: 55%; /* Ancho ajustado */
+  display: block; /* Cambiar a display block */
+  margin-bottom: 1%;
+  color: black;
+  margin-left: 20%; /* Ajustar el margen izquierdo para alinear a la derecha */
+}
+
+.bodyServiciosIzquierda {
+  width: 55%; /* Cambiar el ancho a 100% */
   display: block; /* Cambiar a display block */
   margin-bottom: 1%;
   justify-content: center;
   color: black;
 }
+

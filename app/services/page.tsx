@@ -13,7 +13,7 @@ export default function Servicios() {
                 <div className="columnaSinNada flex-1"></div>
                 <div className="columnaDerecha flex-1">
                     <h1 className="tituloDerecha"> Derecho Civil y Comercial </h1>
-                    <div className="bodyServicios"> 
+                    <div className="bodyServiciosDerecha"> 
                                 <ul>
                                     <Divider className="my-4" />
                                     <li>Sucesiones</li>
@@ -35,7 +35,7 @@ export default function Servicios() {
             <div className="contenedorServicios">
                 <div className="columnaIzquierda flex-1">
                     <h1 className="tituloDerecha"> Derecho de Familia </h1>
-                    <h1 className="bodyServicios"> 
+                    <h1 className="bodyServiciosIzquierda"> 
                         <ul>
                             <Divider className="my-4" />
                             <li>Divorcios y uniones convivenciales</li>
@@ -64,7 +64,7 @@ export default function Servicios() {
                 <div className="columnaSinNada flex-1"></div>
                 <div className="columnaDerecha flex-1">
                     <h1 className="tituloDerecha"> Derecho Laboral </h1>
-                    <h1 className="bodyServicios"> 
+                    <h1 className="bodyServiciosDerecha"> 
                         <ul>
                             <Divider className="my-4" />
                             <li>Accidentes de trabajo</li>
@@ -80,7 +80,7 @@ export default function Servicios() {
             <div className="contenedorServicios">
                 <div className="columnaIzquierda flex-1">
                     <h1 className="tituloDerecha"> Derecho Administrativo </h1>
-                    <h1 className="bodyServicios"> 
+                    <h1 className="bodyServiciosIzquierda"> 
                         <ul>
                             <Divider className="my-4" />
                             <li>Amparos de Salud</li>

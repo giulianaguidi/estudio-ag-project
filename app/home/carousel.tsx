@@ -10,7 +10,6 @@ export default class NextJsCarousel extends Component {
                 <Carousel autoPlay infiniteLoop showThumbs={false} showStatus={false}> 
                     <div> 
                         <Image src={"/carousel1.png"} alt="image1" width={1000} height={300}/> 
-
                     </div> 
                     <div> 
                         <Image src={"/carousel2.jpg"} alt="image2" width={1000} height={300}/> 
