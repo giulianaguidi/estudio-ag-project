@@ -7,7 +7,7 @@ import Image from 'next/image'
 import HomePage from "./home/page";
 import Contacto from "./contact/page";
 import Servicios from "./services/page";
-
+import { useRouter } from 'next/navigation';
 
 
 export default function Home() {
@@ -15,12 +15,15 @@ export default function Home() {
   const [serviciosButton, setServicios] = useState(false);
   const [inicioButton, setInicio] = useState(true);
   const [currentPage, setCurrentPage] = React.useState<React.Key>("inicio");
+  const router = useRouter()
+
 
   function handleServiciosButton(): void {
       setContacto(false);
       setInicio(false);
       setServicios(true);
       setCurrentPage("servicio");
+      //router.push('/services');
   }
 
   function handleContactoButton(): void {
@@ -28,6 +31,7 @@ export default function Home() {
       setInicio(false);
       setContacto(true);
       setCurrentPage("contacto");
+      
   }
 
   function handleInicioButton(): void {
@@ -65,6 +69,7 @@ export default function Home() {
                 </Breadcrumbs>
             </div>
         </div>
+
 
         {inicioButton && (
           <HomePage></HomePage>

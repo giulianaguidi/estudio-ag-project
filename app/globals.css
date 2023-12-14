@@ -48,10 +48,21 @@ body {
   min-height: 100%;
 }
 
+.columnaGralHome {
+  width: 100%; /* Establece el ancho al 50% para dos columnas */
+  background-image: url('/carousel1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*padding: 20px;*/
+  /*box-sizing: border-box;  Incluye el padding en el ancho total */
+  /*border: 1px solid #ccc; Borde para visualizar las columnas */
+}
+
 .columna {
   width: 100%; /* Establece el ancho al 50% para dos columnas */
-  background-color: #FFF5EE;
-  
+  padding-bottom: 2%;
+  padding-left: 20%;
+  padding-right: 20%;
   /*padding: 20px;*/
   /*box-sizing: border-box;  Incluye el padding en el ancho total */
   /*border: 1px solid #ccc; Borde para visualizar las columnas */
@@ -108,6 +119,7 @@ body {
 .botonColumna {
   width: 100%; /* El botón ocupará el 100% del ancho de la columna */
   justify-content: center; /* Centrar horizontalmente el contenido del botón */
+  color: #FFF5EE;
   /* Otros estilos que necesites para sobrescribir los estilos de la librería */
 }
 
@@ -136,7 +148,7 @@ body {
 .h1 {
   font-size: xx-large;
   font-variant-position: super;
-  color: black;
+  color: rgb(255, 255, 255);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -150,7 +162,7 @@ body {
 .h22 {
   font-size: large;
   font-variant-position: super;
-  color: black;
+  color: rgb(255, 255, 255);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 

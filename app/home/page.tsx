@@ -7,13 +7,12 @@ import NextJsCarousel from "./carousel";
 export default function HomePage() {
   return (
     <>
-        <div className="columna">
+        <div className="columnaGralHome">
             <div className="columna4">
                     <Fade duration={5000}> 
                         <h1 className="h1">Bienvenidos al Despacho Legal de Adrián Gustavo Guidi</h1> 
                     </Fade> 
                 </div>
-            <NextJsCarousel></NextJsCarousel>
             <div className="columna text-black">
                 <Fade duration={7000}>
                     <div className="columna4">
