@@ -10,9 +10,8 @@ const Footer: React.FC = () => {
     <footer className="py-4 footer-container">
       <ContainerFooter>
         <div className="footer-content">
-          <SocialIcon network="instagram" url="https://www.instagram.com/healthtimenutrition/?hl=es" className="mx-1" />
-          <SocialIcon network="facebook" url="https://www.facebook.com/healthtime/" className="mx-1" />
-          <SocialIcon network="linkedin" url="https://ar.linkedin.com/company/healthtime" className="mx-1" />
+          <SocialIcon network="instagram" url="https://www.instagram.com/adriangustavoguidi/" className="mx-1" />
+          <SocialIcon network="email" url="" className="mx-1" />
         </div>          
       </ContainerFooter>
     </footer>
