@@ -1,34 +1,34 @@
 "use client";
 import React from "react";
 import {Card, CardBody, Divider} from "@nextui-org/react";
-
-
+import Home from "../background";
 
 export default function Servicios() {
   return (
     <>
-       <div className="contenedorServiciosGral">
+    <Home>
+    <div className="contenedorServiciosGral">
        <h1 className="serviciosTitulo">Servicios</h1> 
             <div className="contenedorServicios">
                 <div className="columnaSinNada flex-1"></div>
                 <div className="columnaDerecha flex-1">
                     <h1 className="tituloDerecha"> Derecho Civil y Comercial </h1>
                     <div className="bodyServiciosDerecha"> 
-                                <ul>
-                                    <Divider className="my-4" />
-                                    <li>Sucesiones</li>
-                                    <Divider className="my-4" />
-                                    <li>Accidentes de transito</li>
-                                    <Divider className="my-4" />
-                                    <li>Daños y Perjuicios</li>
-                                    <Divider className="my-4" />
-                                    <li>Juicios Ejecutivos</li>
-                                    <Divider className="my-4" />
-                                    <li>Desalojos</li>
-                                    <Divider className="my-4" />
-                                    <li>Contratos</li>
-                                    <Divider className="my-4" />
-                                </ul>
+                        <ul>
+                            <Divider className="my-4" />
+                            <li>Sucesiones</li>
+                            <Divider className="my-4" />
+                            <li>Accidentes de transito</li>
+                            <Divider className="my-4" />
+                            <li>Daños y Perjuicios</li>
+                            <Divider className="my-4" />
+                            <li>Juicios Ejecutivos</li>
+                            <Divider className="my-4" />
+                            <li>Desalojos</li>
+                            <Divider className="my-4" />
+                            <li>Contratos</li>
+                            <Divider className="my-4" />
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -95,6 +95,8 @@ export default function Servicios() {
                 <div className="columnaSinNada flex-1"></div>
             </div>
         </div>
+    </Home>
+       
   </>
   );
 }

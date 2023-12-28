@@ -80,6 +80,7 @@ body {
   height: max-content;
   align-self: center;
   background: linear-gradient(#866042,#784D1B);
+
 }
 
 .contenedor3v2 {
@@ -185,7 +186,6 @@ body {
   margin-top: 2%;
   margin-bottom: 2%;
   background-image: url('../public/service-bg2.jpg');
-
 }
 
 .contenedorServicios {
@@ -265,3 +265,24 @@ body {
   color: black;
 }
 
+.card {
+  background: none;
+  width: 100%;
+  align-self: center;
+  background-image: url('../public/service-bg2.jpg');
+  margin-top: 1%;
+}
+
+.contenedorProfile {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 100%;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+}
