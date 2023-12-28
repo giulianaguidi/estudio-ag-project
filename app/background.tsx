@@ -2,7 +2,7 @@
 import React, { ReactNode, useEffect, useState } from "react";
 import { Button, Breadcrumbs, BreadcrumbItem } from "@nextui-org/react";
 import Footer from "./footer";
-import { useRouter } from 'next/navigation';
+import { useRouter, usePathname } from 'next/navigation';
 
 
 interface HomeProps {
@@ -15,16 +15,32 @@ export default function Home({ children }: HomeProps) {
   const [inicioButton, setInicio] = useState(true);
   const [currentPage, setCurrentPage] = useState<string>("inicio");
   const router = useRouter()
+  const pathname = usePathname()
 
   useEffect(() => {
-    setCurrentPage(router.pathname); // Actualiza currentPage cuando cambie la URL
-  }, [router.pathname]);
+    setCurrentPage(pathname) 
+    if (pathname === 'contact') {
+      setContacto(true);
+      setInicio(false);
+      setServicios(false);
+    }
+     if (pathname === 'services') {
+      setContacto(false);
+      setInicio(false);
+      setServicios(true);
+    }
+    if (pathname === ''){
+      setInicio(true);
+      setContacto(false);
+      setServicios(false);
+    }
+  }, [pathname]);
   
   function handleServiciosButton(): void {
       setContacto(false);
       setInicio(false);
       setServicios(true);
-      setCurrentPage("servicio");
+      setCurrentPage("services");
       router.push('/services');
   }
 
@@ -32,7 +48,7 @@ export default function Home({ children }: HomeProps) {
       setServicios(false);
       setInicio(false);
       setContacto(true);
-      setCurrentPage("contacto");
+      setCurrentPage("contact");
       router.push('/contact')
       
   }
@@ -60,12 +76,12 @@ export default function Home({ children }: HomeProps) {
                         <h2 className="h2">Inicio</h2>
                     </BreadcrumbItem>
                     {contactoButton && (
-                        <BreadcrumbItem key="contacto" isCurrent={currentPage === "contacto"}>
+                        <BreadcrumbItem key="contacto" isCurrent={currentPage === "contact"}>
                            <h2 className="h2">Contacto</h2> 
                         </BreadcrumbItem>
                     )}
                     {serviciosButton && (
-                        <BreadcrumbItem key="servicio" isCurrent={currentPage === "servicio"}>
+                        <BreadcrumbItem key="servicio" isCurrent={currentPage === "services"}>
                            <h2 className="h2">Servicios</h2>
                         </BreadcrumbItem>
                     )}
