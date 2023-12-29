@@ -30,6 +30,8 @@ body {
   background-color: #FFF5EE;
   align-items: center;
   justify-content: center;
+  background-image: url('/bg-navbar.jpg');
+
 }
 
 .container-fluid {
@@ -173,11 +175,12 @@ body {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color:rgb(255, 255, 255);
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  padding-left: 2%;
   margin-bottom: 2%;
   text-decoration: solid;
   text-decoration:double;
-  background: linear-gradient(#627D98,#334E68);
+  background: linear-gradient(#9db0c4,#818e9a);
 }
 
 .contenedorServiciosGral {
