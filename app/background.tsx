@@ -18,18 +18,16 @@ export default function Home({ children }: HomeProps) {
   const pathname = usePathname()
 
   useEffect(() => {
-    setCurrentPage(pathname) 
-    if (pathname === 'contact') {
+    setCurrentPage(pathname);
+    if (pathname === '/contact') {
       setContacto(true);
       setInicio(false);
       setServicios(false);
-    }
-     if (pathname === 'services') {
+    } else if (pathname === '/services') {
       setContacto(false);
       setInicio(false);
       setServicios(true);
-    }
-    if (pathname === ''){
+    } else if (pathname === '/') {
       setInicio(true);
       setContacto(false);
       setServicios(false);

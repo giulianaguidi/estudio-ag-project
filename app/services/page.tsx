@@ -10,8 +10,8 @@ export default function Servicios() {
     <div className="contenedorServiciosGral">
        <h1 className="serviciosTitulo">Servicios</h1> 
             <div className="contenedorServicios">
-                <div className="columnaSinNada flex-1"></div>
-                <div className="columnaDerecha flex-1">
+                <div className="columnaSinNada"></div>
+                <div className="columnaDerecha">
                     <h1 className="tituloDerecha"> Derecho Civil y Comercial </h1>
                     <div className="bodyServiciosDerecha"> 
                         <ul>
