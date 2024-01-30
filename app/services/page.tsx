@@ -32,9 +32,9 @@ export default function Servicios() {
                 </div>
             </div>
             <div className="contenedorServicios">
-                <div className="columnaIzquierda flex-1">
+                <div className="columnaIzquierda flex-1" style={{ borderLeft: 'solid #38404E', borderTop: 'solid #38404E', borderBottom: 'solid #38404E' }}>
                     <h1 className="tituloDerecha"> Derecho de Familia </h1>
-                    <h1 className="bodyServiciosIzquierda" style={{ borderLeft: 'solid #38404E', borderTop: 'solid #38404E', borderBottom: 'solid #38404E' }}> 
+                    <h1 className="bodyServiciosIzquierda"> 
                         <ul>
                             <Divider className="my-4" />
                             <li>Divorcios y uniones convivenciales</li>
