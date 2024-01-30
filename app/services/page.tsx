@@ -11,8 +11,7 @@ export default function Servicios() {
        <h1 className="serviciosTitulo">Servicios</h1> 
             <div className="contenedorServicios">
                 <div className="columnaSinNada"></div>
-                <div className="columnaDerecha">
-                    <h1 className="tituloDerecha"> Derecho Civil y Comercial </h1>
+                <div className="columnaDerecha flex-1" style={{ borderRight: 'solid #38404E', borderTop: 'solid #38404E', borderBottom: 'solid #38404E' }}>                    <h1 className="tituloDerecha"> Derecho Civil y Comercial </h1>
                     <div className="bodyServiciosDerecha"> 
                         <ul>
                             <Divider className="my-4" />
@@ -35,7 +34,7 @@ export default function Servicios() {
             <div className="contenedorServicios">
                 <div className="columnaIzquierda flex-1">
                     <h1 className="tituloDerecha"> Derecho de Familia </h1>
-                    <h1 className="bodyServiciosIzquierda"> 
+                    <h1 className="bodyServiciosIzquierda" style={{ borderLeft: 'solid #38404E', borderTop: 'solid #38404E', borderBottom: 'solid #38404E' }}> 
                         <ul>
                             <Divider className="my-4" />
                             <li>Divorcios y uniones convivenciales</li>
@@ -78,7 +77,7 @@ export default function Servicios() {
                 </div>
             </div>
             <div className="contenedorServicios">
-                <div className="columnaIzquierda flex-1">
+                <div className="columnaIzquierda flex-1" style={{ borderLeft: 'solid #38404E', borderTop: 'solid #38404E', borderBottom: 'solid #38404E' }}>
                     <h1 className="tituloDerecha"> Derecho Administrativo </h1>
                     <h1 className="bodyServiciosIzquierda"> 
                         <ul>
