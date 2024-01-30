@@ -61,8 +61,8 @@ export default function Home({ children }: HomeProps) {
 
   return (
 
-      <div className="max-w-full max-h-full bg-white">
-        <nav className="navbar bg-body-tertiary bg-white">
+      <div className="containerLayout">
+        <nav className="navbar bg-body-tertiary">
               <div className="container-fluid">
                   <img src={"/AGLogo.png"} alt="Logo"  height={150} width={200}  className="" />
               </div>

@@ -26,6 +26,11 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+html, body {
+  height: 100%;
+  margin: 0; 
+}
+
 .navbar {
   background-color: #FFF5EE;
   align-items: center;
@@ -55,8 +60,9 @@ body {
   background-image: url('/carousel1.png');
   background-repeat: no-repeat;
   background-size: cover;
-  /*padding: 20px;*/
-  /*box-sizing: border-box;  Incluye el padding en el ancho total */
+  height: max-content;
+  padding: 10%;
+  box-sizing: border-box;  
   /*border: 1px solid #ccc; Borde para visualizar las columnas */
 }
 
@@ -78,10 +84,9 @@ body {
 
 .contenedor3 {
   display: flex; /* Utiliza flexbox para el diseño */
-  min-height: 100%;
-  height: max-content;
   align-self: center;
   background: linear-gradient(#3b3027,#1f1810);
+  text-decoration: rgb(255, 255, 255);
 
 }
 
@@ -183,11 +188,19 @@ body {
   background: linear-gradient(#9db0c4,#818e9a);
 }
 
+.contenedorDeContenedorDeServicios {
+  background-color: white;
+  height: 100%;
+  margin: 0; /* Elimina los márgenes */
+  padding: 2%; /* Ajusta el relleno según sea necesario */
+}
+
+
 .contenedorServiciosGral {
   margin-left: 2%;
   margin-right: 2%;
-  margin-top: 2%;
   margin-bottom: 2%;
+  margin-top: 2%;
   background-image: url('../public/service-bg2.jpg');
 }
 
@@ -196,7 +209,8 @@ body {
   display: flex;
   margin-left: 2%;
   margin-right: 2%;
-
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .columnaDerecha {
@@ -288,4 +302,8 @@ body {
   justify-self: center;
   display: flex;
   flex-direction: column;
+}
+
+.containerLayout {
+  background-color: black;
 }

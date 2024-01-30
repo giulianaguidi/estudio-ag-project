@@ -1,12 +1,9 @@
 "use client";
-import React, { useState } from "react";
-import { Button, Breadcrumbs, BreadcrumbItem, Card, CardHeader } from "@nextui-org/react";
-import Footer from "../footer";
-import { Fade } from "react-awesome-reveal"; 
+import React from "react";
+import { Card, CardHeader } from "@nextui-org/react";
 import Image from 'next/image'
 import Home from "../background";
 import CardProfile from "./cardProfile";
-import CardContact from "./cardContact";
 
 
 export default function Contacto() {
