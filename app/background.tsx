@@ -3,6 +3,7 @@ import React, { ReactNode, useEffect, useState } from "react";
 import { Button, Breadcrumbs, BreadcrumbItem } from "@nextui-org/react";
 import Footer from "./footer";
 import { useRouter, usePathname } from 'next/navigation';
+import {HomeIcon} from "./HomeIcon";
 
 
 interface HomeProps {
@@ -69,8 +70,8 @@ export default function Home({ children }: HomeProps) {
         </nav>
         <div className="contenedor3">
             <div className="contenedor3v2">
-                <Breadcrumbs underline="active" onAction={() => handleInicioButton()}>
-                    <BreadcrumbItem key="inicio" isCurrent={currentPage === "inicio"}>
+                <Breadcrumbs color="primary" variant="light" underline="active" onAction={() => handleInicioButton()}>
+                    <BreadcrumbItem key="inicio" isCurrent={currentPage === "inicio"} startContent={<HomeIcon />}>
                         <h2 className="h2">Inicio</h2>
                     </BreadcrumbItem>
                     {contactoButton && (
