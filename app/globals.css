@@ -200,12 +200,12 @@ body {
 }
 
 .columnaDerecha {
-  width: 100%; /* Cambiar el ancho a 100% */
+  width: 50%; /* Cambiar el ancho a 100% */
   border-top: solid;
-  border-bottom: solid;
-  border-right: solid;
   border-top-color: #38404E;
+  border-bottom: solid;
   border-bottom-color: #38404E;
+  border-right: solid;
   border-right-color: #38404E;
   border-left: none;
   display: flex; /* Cambiar a display flex */
@@ -216,12 +216,12 @@ body {
 
 
 .columnaIzquierda {
-  width: 100%;
+  width: 50%;
   border-top: solid;
-  border-bottom: solid;
-  border-left: solid;
   border-top-color: #38404E;
+  border-bottom: solid;
   border-bottom-color: #38404E;
+  border-left: solid;
   border-left-color: #38404E;
   border-right: none;
   justify-content: left;
