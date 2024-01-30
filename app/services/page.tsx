@@ -62,7 +62,7 @@ export default function Servicios() {
             </div>
             <div className="contenedorServicios">
                 <div className="columnaSinNada flex-1"></div>
-                <div className="columnaDerecha flex-1">
+                <div className="columnaDerecha flex-1" style={{ borderRight: 'solid #38404E', borderTop: 'solid #38404E', borderBottom: 'solid #38404E' }}>
                     <h1 className="tituloDerecha"> Derecho Laboral </h1>
                     <h1 className="bodyServiciosDerecha"> 
                         <ul>
