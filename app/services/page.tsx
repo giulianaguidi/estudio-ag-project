@@ -52,7 +52,7 @@ export default function Servicios() {
                             <Divider className="my-4" />
                             <li>Adopción</li>
                             <Divider className="my-4" />
-                            <li>Responsabilidad paternal</li>
+                            <li>Responsabilidad parental</li>
                             <Divider className="my-4" />
                         </ul>
                     </h1>
@@ -68,6 +68,7 @@ export default function Servicios() {
                             <ul>
                                 <Divider className="my-4" />
                                 <li>Accidentes de trabajo</li>
+                                <li>Enfermedades Profesionales</li>
                                 <Divider className="my-4" />
                                 <li>Indemnizaciones por despido</li>
                                 <Divider className="my-4" />
@@ -79,20 +80,15 @@ export default function Servicios() {
                 </div>
                 <div className="contenedorServicios">
                     <div className="columnaIzquierda flex-1" style={{ borderLeft: 'solid #38404E', borderTop: 'solid #38404E', borderBottom: 'solid #38404E' }}>
-                        <h1 className="tituloDerecha"> Derecho Administrativo </h1>
-                        <h1 className="bodyServiciosIzquierda"> 
-                            <ul>
-                                <Divider className="my-4" />
-                                <li>Amparos de Salud</li>
-                                <Divider className="my-4" />
-                                <li>Demas</li>
-                                <Divider className="my-4" />
-                                <li>Demas</li>
-                                <Divider className="my-4" />
-                            </ul>    
-                        </h1>
+                        <h1 className="tituloDerecha"> Derecho Penal </h1>
                 </div>
                 <div className="columnaSinNada flex-1"></div>
+                </div>
+                <div className="contenedorServicios">
+                    <div className="columnaSinNada flex-1"></div>
+                    <div className="columnaDerecha flex-1" style={{ borderRight: 'solid #38404E', borderTop: 'solid #38404E', borderBottom: 'solid #38404E' }}>
+                        <h1 className="tituloDerecha"> Causas Federales </h1>
+                    </div>
                 </div>
             </div>
         </div>

@@ -59,10 +59,8 @@ html, body {
   width: 100%; /* Establece el ancho al 50% para dos columnas */
   background-image: url('/carousel1.png');
   background-repeat: no-repeat;
-  background-size: cover;
-  height: max-content;
-  padding: 10%;
-  box-sizing: border-box;  
+  background-size:cover;
+  height: fit-content;
   /*border: 1px solid #ccc; Borde para visualizar las columnas */
 }
 
