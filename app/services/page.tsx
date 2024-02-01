@@ -18,7 +18,7 @@ export default function Servicios() {
                             <Divider className="my-4" />
                             <li>Sucesiones</li>
                             <Divider className="my-4" />
-                            <li>Accidentes de transito</li>
+                            <li>Accidentes de tránsito</li>
                             <Divider className="my-4" />
                             <li>Daños y Perjuicios</li>
                             <Divider className="my-4" />
@@ -44,7 +44,7 @@ export default function Servicios() {
                             <Divider className="my-4" />
                             <li>Impedimento de contacto</li>
                             <Divider className="my-4" />
-                            <li>Regimen de comunicacion</li>
+                            <li>Régimen de comunicacion</li>
                             <Divider className="my-4" />
                             <li>Cuidado personal</li>
                             <Divider className="my-4" />
