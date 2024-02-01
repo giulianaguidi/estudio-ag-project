@@ -26,7 +26,7 @@ export default function Contacto() {
               </Card>
               <Card className="card py-4">
                 <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
-                  <p className="text-tiny uppercase font-bold">Horarios</p>
+                  <p className="text-tiny uppercase font-bold">Días y Horarios</p>
                   <h4 className="font-bold text-large">Lunes, Martes, Miercoles y Jueves de 17 a 20hs</h4>
                 </CardHeader>
               </Card>

@@ -206,6 +206,7 @@ html, body {
   margin-bottom: 2%;
   margin-top: 2%;
   background-image: url('../public/service-bg2.jpg');
+  padding-bottom: 2%;
 }
 
 .contenedorServicios {
@@ -234,7 +235,7 @@ html, body {
 }
 
 .columnaIzquierda {
-  width: 50%;
+  width: 80%;
   border-top: solid;
   border-top-color: #38404E;
   border-bottom: solid;
