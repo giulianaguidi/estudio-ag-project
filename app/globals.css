@@ -64,6 +64,12 @@ html, body {
   /*border: 1px solid #ccc; Borde para visualizar las columnas */
 }
 
+@media (max-width: 600px) {
+  .columnaGralHome {
+    background-image: url('/vertical.jpg'); /* Cambia la ruta de la imagen según tu necesidad */
+  }
+}
+
 .columna {
   width: 100%; /* Establece el ancho al 50% para dos columnas */
   padding-bottom: 2%;
