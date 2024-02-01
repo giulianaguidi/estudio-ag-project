@@ -11,9 +11,9 @@ export default function HomePage() {
     <Home>
         <div className="columnaGralHome">
                 <div className="columna4">
-                        <Fade duration={5000}> 
-                                <h1 className="h1">Bienvenidos</h1> 
-                        </Fade> 
+                <Fade duration={5000}> 
+                        <h1 className="h1">Bienvenidos</h1> 
+                </Fade> 
                 </div>
                 <div className="columna text-black">
                 <Fade duration={7000}>
