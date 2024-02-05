@@ -1,9 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Abogado Adrian Gustavo Guidi
+Welcome to the official repository for the Abogado Adrian Gustavo Guidi application. This project serves as a website dedicated to providing information about the legal services offered by lawyer Adrian Guidi, along with the necessary details to contact him.
+
+## Overview
+This application was developed using Next.js with TypeScript, aiming to create a straightforward and effective platform for users seeking legal assistance. While the application itself is simple, the development process served as a valuable opportunity to reinforce frontend skills.
+
+## Features
+Service Information: Explore detailed information about the legal services provided by Abogado Adrian Gustavo Guidi.
+
+Contact Details: Find the necessary contact information to get in touch with Adrian Guidi for legal inquiries or consultations.
+
+## Link
+Visit the official website:
+https://www.abogadoadrianguidi.com.ar/
+
+## Technologies Used
+Next.js: A React-based framework for building server-rendered and statically generated web applications.
+
+TypeScript: A statically typed superset of JavaScript that enhances code quality and maintainability.
 
 ## Getting Started
 
-First, run the development server:
-
+To run the application locally, follow these steps:
+- Clone the repository: git clone [repository_url]
+- Install dependencies: npm install
+- Start the development server: 
 ```bash
 npm run dev
 # or
@@ -14,23 +34,11 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Acknowledgments
+Special thanks to Adrian Gustavo Guidi for the opportunity to develop this application showcasing his legal services.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Feel free to contribute, report issues, or contact us for further assistance.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for your interest in the Abogado Adrian Gustavo Guidi application!
