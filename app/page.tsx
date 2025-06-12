@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { Fade } from "react-awesome-reveal"; 
-import NextJsCarousel from "./carousel";
 import Home from "./background";
 
 

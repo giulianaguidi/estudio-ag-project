@@ -4,7 +4,6 @@ import { Card, CardHeader } from "@nextui-org/react";
 import Home from "../background";
 import CardProfile from "./cardProfile";
 
-
 export default function Contacto() {
   return (
     <>
@@ -15,7 +14,7 @@ export default function Contacto() {
               <Card className="card py-4">
                 <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
                   <p className="text-tiny uppercase font-bold">Dirección </p>
-                  <h4 className="font-bold text-large">Bahía Blanca, Alsina 35, Piso 7, Oficina 4</h4>
+                  <h4 className="font-bold text-large">Bahía Blanca, Alsina 35, Piso 7, Oficina 3</h4>
                 </CardHeader>
               </Card>
               <Card className="card py-4">
