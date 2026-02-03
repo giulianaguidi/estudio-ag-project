@@ -3,8 +3,34 @@ import React from "react";
 import { Fade } from "react-awesome-reveal"; 
 import Home from "./background";
 
+const serviciosData = [
+  { nombre: "Sucesiones", descripcion: "" },
+  { nombre: "Usucapión", descripcion: "" },
+  { nombre: "Accidentes de tránsito", descripcion: "" },
+  {
+    nombre: "Infracciones de tránsito",
+    descripcion: "Restitución de licencia",
+  },
+  { nombre: "Daños y Perjuicios", descripcion: "" },
+  { nombre: "Juicios Ejecutivos", descripcion: "" },
+  { nombre: "Desalojos", descripcion: "" },
+  { nombre: "Contratos", descripcion: "" },
+  { nombre: "Divorcios y uniones convivenciales", descripcion: "" },
+  { nombre: "Cuota alimentaria", descripcion: "" },
+  { nombre: "Impedimento de contacto", descripcion: "" },
+  { nombre: "Régimen de comunicación", descripcion: "" },
+  { nombre: "Cuidado personal", descripcion: "" },
+  { nombre: "Filiación", descripcion: "" },
+  { nombre: "Adopción", descripcion: "" },
+  { nombre: "Responsabilidad parental", descripcion: "" },
+  { nombre: "Accidentes de trabajo", descripcion: "" },
+  { nombre: "Enfermedades Profesionales", descripcion: "" },
+  { nombre: "Indemnizaciones por despido", descripcion: "" },
+  { nombre: "Reclamos laborales en general", descripcion: "" },
+  { nombre: "Amparos de salud", descripcion: "" },
+];
 
-export default function HomePage() {
+export default function Home() {
   return (
     <>
     <Home>
