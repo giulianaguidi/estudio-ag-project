@@ -26,10 +26,17 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+html, body {
+  height: 100%;
+  margin: 0; 
+}
+
 .navbar {
   background-color: #FFF5EE;
   align-items: center;
   justify-content: center;
+  background-image: url('/bg-navbar.jpg');
+
 }
 
 .container-fluid {
@@ -52,10 +59,15 @@ body {
   width: 100%; /* Establece el ancho al 50% para dos columnas */
   background-image: url('/carousel1.png');
   background-repeat: no-repeat;
-  background-size: cover;
-  /*padding: 20px;*/
-  /*box-sizing: border-box;  Incluye el padding en el ancho total */
+  background-size:cover;
+  height: fit-content;
   /*border: 1px solid #ccc; Borde para visualizar las columnas */
+}
+
+@media (max-width: 600px) {
+  .columnaGralHome {
+    background-image: url('/vertical.jpg'); /* Cambia la ruta de la imagen según tu necesidad */
+  }
 }
 
 .columna {
@@ -76,10 +88,9 @@ body {
 
 .contenedor3 {
   display: flex; /* Utiliza flexbox para el diseño */
-  min-height: 100%;
-  height: max-content;
   align-self: center;
-  background: linear-gradient(#866042,#784D1B);
+  background: linear-gradient(#3b3027,#1f1810);
+  text-decoration: rgb(255, 255, 255);
 
 }
 
@@ -173,19 +184,29 @@ body {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color:rgb(255, 255, 255);
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  padding-left: 2%;
   margin-bottom: 2%;
   text-decoration: solid;
   text-decoration:double;
-  background: linear-gradient(#627D98,#334E68);
+  background: linear-gradient(#9db0c4,#818e9a);
 }
+
+.contenedorDeContenedorDeServicios {
+  background-color: white;
+  height: 100%;
+  margin: 0; /* Elimina los márgenes */
+  padding: 2%; /* Ajusta el relleno según sea necesario */
+}
+
 
 .contenedorServiciosGral {
   margin-left: 2%;
   margin-right: 2%;
-  margin-top: 2%;
   margin-bottom: 2%;
+  margin-top: 2%;
   background-image: url('../public/service-bg2.jpg');
+  padding-bottom: 2%;
 }
 
 .contenedorServicios {
@@ -193,32 +214,33 @@ body {
   display: flex;
   margin-left: 2%;
   margin-right: 2%;
-
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .columnaDerecha {
-  width: 100%; /* Cambiar el ancho a 100% */
+  width: 80%; /* Cambiar el ancho a 100% */
   border-top: solid;
-  border-bottom: solid;
-  border-right: solid;
   border-top-color: #38404E;
+  border-bottom: solid;
   border-bottom-color: #38404E;
+  border-right: solid;
   border-right-color: #38404E;
   border-left: none;
   display: flex; /* Cambiar a display flex */
   flex-direction: column; /* Establecer la dirección de los elementos como columna */
   align-items: flex-end; /* Alinear los elementos al final (derecha) */
   padding-right: 1%; /* Añadir un pequeño espacio a la derecha */
+  min-width: max-content;
 }
 
-
 .columnaIzquierda {
-  width: 100%;
+  width: 80%;
   border-top: solid;
-  border-bottom: solid;
-  border-left: solid;
   border-top-color: #38404E;
+  border-bottom: solid;
   border-bottom-color: #38404E;
+  border-left: solid;
   border-left-color: #38404E;
   border-right: none;
   justify-content: left;
@@ -226,6 +248,7 @@ body {
   align-self: left;
   justify-self: left;
   padding-left: 1%;
+  min-width: max-content;
 }
 
 .columnaSinNada {
@@ -285,4 +308,8 @@ body {
   justify-self: center;
   display: flex;
   flex-direction: column;
+}
+
+.containerLayout {
+  background-color: black;
 }

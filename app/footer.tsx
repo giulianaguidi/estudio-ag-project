@@ -11,7 +11,6 @@ const Footer: React.FC = () => {
       <ContainerFooter>
         <div className="footer-content">
           <SocialIcon network="instagram" url="https://www.instagram.com/adriangustavoguidi/" className="mx-1" />
-          <SocialIcon network="email" url="" className="mx-1" />
         </div>          
       </ContainerFooter>
     </footer>
